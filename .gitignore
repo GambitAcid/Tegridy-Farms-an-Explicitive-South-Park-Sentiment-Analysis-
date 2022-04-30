@@ -1,9 +1,6 @@
 # By Epsisode Screen Scrap .csv files 
 /SSCSV/
 
-
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
