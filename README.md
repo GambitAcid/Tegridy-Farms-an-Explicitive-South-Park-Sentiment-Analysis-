@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 Project Title:   Tegridy Farms: Data Analysis with Tegridy 
 
 Team Members: Ronnie Phillips, Rashmi Rekha, Lynne Freilich, and Nashra Khan
@@ -117,19 +117,25 @@ The correlation between both factors is 0.4
 
 The correlation between both factors is -0.37
 ![image](https://user-images.githubusercontent.com/98897041/166259769-1482e308-4026-4537-ae9e-2e439ab5ba7d.png)
->>>>>>> 368316955aa208524782e7f6eca2355f182d5fa2
 
-The r-squared is: 0.155
+The r-squared between Word Count vs Offensive Word Count: 0.155
 
-The correlation between Word Count and Polarity is 0.06
+![image](https://user-images.githubusercontent.com/101225094/166391851-e41d0ea0-8620-4bed-9d5f-87074ab06923.png)
 
-The r-squared is: 0.713
+The r-squared between Season vs Positive Polarity: 0.713
 
-The r-squared is: 0.071
+![image](https://user-images.githubusercontent.com/101225094/166391778-a518bdca-f75f-469f-9090-8a32d470349a.png)
+
+The r-squared between Season vs Negative Polarity: 0.071
+
+![image](https://user-images.githubusercontent.com/101225094/166391759-ef1e3d69-4830-4f57-909d-e5e154265381.png)
 
 The correlation between Word Count and Subjectivity is 0.29
 
-The r-squared is: 0.083
+The r-squared between Word Count vs Subjectivity: 0.083
+
+![image](https://user-images.githubusercontent.com/101225094/166391737-00d59bf1-be57-4e3c-87b9-cda610c96284.png)
+
 
 
 
