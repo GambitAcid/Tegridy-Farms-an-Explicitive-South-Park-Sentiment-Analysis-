@@ -119,3 +119,17 @@ The correlation between both factors is -0.37
 ![image](https://user-images.githubusercontent.com/98897041/166259769-1482e308-4026-4537-ae9e-2e439ab5ba7d.png)
 >>>>>>> 368316955aa208524782e7f6eca2355f182d5fa2
 
+The r-squared is: 0.155
+
+The correlation between Word Count and Polarity is 0.06
+
+The r-squared is: 0.713
+
+The r-squared is: 0.071
+
+The correlation between Word Count and Subjectivity is 0.29
+
+The r-squared is: 0.083
+
+
+
