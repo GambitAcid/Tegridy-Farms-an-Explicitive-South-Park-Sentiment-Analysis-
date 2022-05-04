@@ -46,8 +46,8 @@ The complete dataset was first tokenized and stripped of punctuation and parsed 
   A list of all words with standard NLTK stop words removed. ![image](https://user-images.githubusercontent.com/98897041/166171425-9130cfcc-f6df-4273-ad55-137121136297.png)   
   The second list provides a more representative set of words that describe the dialogue of South Park.
   
-  A list of offensive words used in South Park
-  ![image](https://user-images.githubusercontent.com/98897041/166171617-2b129274-e0fd-4b9b-bdec-fd32311c86ef.png)   
+  A list of offensive words used in South Park  
+  The display of this word cloud has been supressed due to it offensive nature. It may be found in the image folder of this respository  
   The third list demonstrates there is a wide variety of offensive words that we can analyze.
   
 
@@ -64,6 +64,8 @@ The complete dataset was first tokenized and stripped of punctuation and parsed 
 
 ### Sentiment Analysis
 
+We used TextBlob to evaluate the sentiment of each line of dialogue. Sentiment describes the over all feeling of a statement, for example the sentence "I am happy to be here.", would score a strong positive sentiment, because of both the language used and lack of additional statements to change it. The statement "Why would you do that terrible thing.", would produce a negative sentiment. It is important to note the statement "You did a terribly good job!", to the reader of that statement it is clear, that it is an strongly positive statement. TextBlob returns a mixed evaluation of this statement, it returns a mildly positive score, and a high subjectivity score. The first chart looks at only those scores above zero and shows that the positive sentiment of South Park over the seasons has declined, the second chart looks at only those scores below zero and shows that the negative sentiment has increased over time. We used sentiment analysis as a second measure against our hypothesis, dialogue that is net positive has decreased over time and negative sentiment has increased. If offensive language were the only factor in determining if a statement were positive or negative, we would expect that negative sentiment would have declined over time. The third chart displays the subjectivity over time, we can view this as type of error rate for the first two charts. While the regression line points to a minor decline in subjectivity, the scatter points show that season 19 scored particularly high and seasons 22 and 24 scored particularly low. Additional analysis would have to be done on those seasons, one of the seasons in question, season 24, was produced and aired during the pandemic. This metric implies that the series has become statistically more negative over time.
+
 The correlation between both factors is -0.66
 ![image](https://user-images.githubusercontent.com/98897041/166174473-773384a8-5dab-4c23-8534-826a127d07e8.png)
 
@@ -73,6 +75,8 @@ The correlation between both factors is 0.4
 The correlation between both factors is -0.37
 ![image](https://user-images.githubusercontent.com/98897041/166259769-1482e308-4026-4537-ae9e-2e439ab5ba7d.png)
 
+
+### Additional Analysis
 The r-squared between Word Count vs Offensive Word Count: 0.155
 
 ![image](https://user-images.githubusercontent.com/101225094/166391851-e41d0ea0-8620-4bed-9d5f-87074ab06923.png)
